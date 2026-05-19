@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title data-i18n="page-title">Portfólio | Analista de Automação e Dados</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#home" class="logo">Jean Santos</a>
+            <nav class="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link" data-i18n="nav-home">Início</a></li>
+                    <li><a href="#about" class="nav-link" data-i18n="nav-about">Sobre</a></li>
+                    <li><a href="#career" class="nav-link" data-i18n="nav-career">Carreira</a></li>
+                    <li><a href="#skills" class="nav-link" data-i18n="nav-skills">Habilidades</a></li>
+                    <li><a href="#projects" class="nav-link" data-i18n="nav-projects">Projetos</a></li>
+                    <li><a href="#contact" class="nav-link" data-i18n="nav-contact">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <div class="language-toggle">
+                    <button id="lang-switch" class="lang-btn">
+                        <span class="lang-text">PT</span>
+                        <i class="fas fa-globe"></i>
+                    </button>
+                </div>
+                <div class="theme-toggle">
+                    <input type="checkbox" id="theme-switch" class="theme-switch-input">
+                    <label for="theme-switch" class="theme-switch-label">
+                        <i class="fas fa-sun"></i>
+                        <i class="fas fa-moon"></i>
+                        <span class="theme-switch-slider"></span>
+                    </label>
+                </div>
+                <div class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero section">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h2 class="subtitle" data-i18n="hero-subtitle">Olá, eu sou um</h2>
+                    <h1 class="title" data-i18n="hero-title">Analista de Automação <br> e <span
+                            class="highlight">Dados</span></h1>
+                    <p class="description" data-i18n="hero-description">
+                        Transformando processos manuais em soluções escaláveis e inteligência operacional com Power
+                        Platform, SQL e Python.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary" data-i18n="btn-contact">Fale Comigo</a>
+                        <a href="#projects" class="btn btn-secondary" data-i18n="btn-projects">Ver Projetos</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-wrapper">
+                        <div class="glass-bg"></div>
+                        <img src="sua-foto.jpg" alt="Foto de Jean Victor" class="profile-img"
+                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; position: relative; z-index: 2; border: 4px solid var(--glass-border); box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-down">
+                <a href="#about"><i class="fas fa-chevron-down"></i></a>
+            </div>
+        </section>
+
+        <!-- Sobre Section -->
+        <section id="about" class="about section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" data-i18n="about-title">Sobre Mim</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <!-- Bio Row: Photo + Text -->
+                <div class="about-bio">
+                    <div class="about-photo-wrapper">
+                        <img src="sua-foto.jpg" alt="Foto de Jean Victor" class="about-photo">
+                    </div>
+                    <div class="about-column">
+                        <h3 class="timeline-title"><i class="fas fa-user"></i> <span data-i18n="about-subtitle">Um pouco
+                                sobre o Jean</span></h3>
+                        <div class="about-text">
+                            <p data-i18n="about-p1">
+                                Profissional com atuação estratégica em automação de processos, análise de dados e
+                                desenvolvimento de soluções corporativas voltadas à eficiência operacional e
+                                transformação digital. Experiência na criação de arquiteturas escaláveis utilizando
+                                Power Platform, SQL e Python, com foco na eliminação de processos manuais, padronização
+                                operacional, integração entre sistemas e otimização de fluxos internos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Carreira Section -->
+        <section id="career" class="career section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" data-i18n="career-title">Carreira Profissional</h2>
+                    <div class="title-underline"></div>
+                </div>
+                <div class="experience-column">
+                    <div class="experience-cards-container">
+                        <!-- Card 1: Aliança -->
+                        <div class="experience-card">
+                            <h4 class="company-name">ALIANÇA NAVEGAÇÃO E TRANSPORTES</h4>
+                            <div class="experience-timeline">
+                                <div class="timeline-item">
+                                    <div class="timeline-dot"></div>
+                                    <div class="timeline-content">
+                                        <h4 data-i18n="exp-alianca-role">Estagiário</h4>
+                                        <span class="date" data-i18n="exp-alianca-date">04/2025 - Atual</span>
+                                        <ul>
+                                            <li data-i18n="exp-alianca-t1">Atendimento ao cliente</li>
+                                            <li data-i18n="exp-alianca-t2">Automação com Power Automate</li>
+                                            <li data-i18n="exp-alianca-t3">Criação de Apps com Power Apps</li>
+                                            <li data-i18n="exp-alianca-t4">Criação e manutenção de SharePoint</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 2: Almeida -->
+                        <div class="experience-card">
+                            <h4 class="company-name">ALMEIDA MATERIAIS DE CONSTRUÇÃO</h4>
+                            <div class="experience-timeline">
+                                <div class="timeline-item">
+                                    <div class="timeline-dot"></div>
+                                    <div class="timeline-content">
+                                        <h4 data-i18n="exp-almeida-role1">Analista de BI</h4>
+                                        <span class="date">06/2024 - 03/2025</span>
+                                        <ul>
+                                            <li data-i18n="exp-almeida-t1-1">Criação de Dashboards</li>
+                                            <li data-i18n="exp-almeida-t1-2">Manipulação de dados</li>
+                                            <li data-i18n="exp-almeida-t1-3">Previsibilidade de vendas</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="timeline-item">
+                                    <div class="timeline-dot"></div>
+                                    <div class="timeline-content">
+                                        <h4 data-i18n="exp-almeida-role2">Suporte de TI</h4>
+                                        <span class="date">10/2023 - 05/2024</span>
+                                        <ul>
+                                            <li data-i18n="exp-almeida-t2-1">Manutenção e montagem</li>
+                                            <li data-i18n="exp-almeida-t2-2">Cabeamento de redes</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="timeline-item">
+                                    <div class="timeline-dot"></div>
+                                    <div class="timeline-content">
+                                        <h4 data-i18n="exp-almeida-role3">Expedição</h4>
+                                        <span class="date">01/2023 - 09/2023</span>
+                                        <ul>
+                                            <li data-i18n="exp-almeida-t3-1">Recebimento e entrada de materiais</li>
+                                            <li data-i18n="exp-almeida-t3-2">Controle de estoque</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Habilidades Section -->
+        <section id="skills" class="skills section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" data-i18n="skills-title">Minhas Habilidades</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="skills-category">
+                    <h3 class="category-title"><i class="fas fa-chart-pie"></i> <span
+                            data-i18n="skills-data">Dados</span></h3>
+                    <div class="skills-grid">
+                        <div class="skill-card glass-card">
+                            <img src="Logos - Microsoft/Power BI - Logo.png" alt="Power BI" class="skill-icon"
+                                style="width: 48px; height: 48px; object-fit: contain;">
+                            <h3>Power BI</h3>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-card glass-card">
+                            <i class="fab fa-python skill-icon" style="color: #3776AB;"></i>
+                            <h3>Python</h3>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-card glass-card">
+                            <i class="fas fa-database skill-icon" style="color: #F29111;"></i>
+                            <h3>SQL</h3>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category" style="margin-top: 50px;">
+                    <h3 class="category-title"><i class="fas fa-robot"></i> <span
+                            data-i18n="skills-automation">Automação</span></h3>
+                    <div class="skills-grid">
+                        <div class="skill-card glass-card">
+                            <img src="Logos - Microsoft/Power Apps - Logo.png" alt="Power Apps" class="skill-icon"
+                                style="width: 48px; height: 48px; object-fit: contain;">
+                            <h3>Power Apps</h3>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-card glass-card">
+                            <img src="Logos - Microsoft/Power Automate - Logo.png" alt="Power Automate"
+                                class="skill-icon" style="width: 48px; height: 48px; object-fit: contain;">
+                            <h3>Power Automate</h3>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-card glass-card">
+                            <img src="Logos - Microsoft/SharePoint - Logo.png" alt="SharePoint" class="skill-icon"
+                                style="width: 48px; height: 48px; object-fit: contain;">
+                            <h3>SharePoint</h3>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-card glass-card">
+                            <i class="fab fa-microsoft skill-icon" style="color: #D83B01;"></i>
+                            <h3>Office</h3>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projetos Section -->
+        <section id="projects" class="projects section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" data-i18n="projects-title">Projetos em Destaque</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card glass-card">
+                        <div class="project-info">
+                            <h3 class="project-title" data-i18n="proj1-title">Dashboard Analítico</h3>
+                            <p class="project-desc" data-i18n="proj1-desc">Desenvolvimento de um dashboard interativo no
+                                Power BI para acompanhamento de KPIs e previsibilidade de vendas.</p>
+                            <div class="project-tags">
+                                <span class="tag">Power BI</span>
+                                <span class="tag">SQL</span>
+                            </div>
+
+                            <button class="btn btn-outline btn-small view-details-btn" data-i18n="btn-details"
+                                data-project-id="1">Ver Detalhes</button>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card glass-card">
+                        <div class="project-info">
+                            <h3 class="project-title">Power Apps - Automation Monitor</h3>
+                            <p class="project-desc" data-i18n="proj2-desc">Aplicativo desenvolvido para monitoramento de
+                                automações do CX (Setor da Aliança), com base em SharePoint.</p>
+                            <div class="project-tags">
+                                <span class="tag">Power Apps</span>
+                                <span class="tag">SharePoint</span>
+                            </div>
+                            <button class="btn btn-outline btn-small view-details-btn" data-i18n="btn-details"
+                                data-project-id="2">Ver Detalhes</button>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card glass-card hidden-project">
+                        <div class="project-info">
+                            <h3 class="project-title" data-i18n="proj3-title">Fluxo - Clientes sem Cadastro</h3>
+                            <p class="project-desc" data-i18n="proj3-desc">Fluxo que identifica novos registros sem
+                                cadastro na Contact List e dispara um e-mail automático ao setor responsável para
+                                realizar o cadastro.</p>
+                            <div class="project-tags">
+                                <span class="tag">Power Automate</span>
+                            </div>
+                            <button class="btn btn-outline btn-small view-details-btn" data-i18n="btn-details"
+                                data-project-id="3">Ver Detalhes</button>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="project-card glass-card hidden-project">
+                        <div class="project-info">
+                            <h3 class="project-title" data-i18n="proj4-title">Fluxo - Envio de Lista de Pendência</h3>
+                            <p class="project-desc" data-i18n="proj4-desc">Fluxo que coleta todos os Bookings pendentes
+                                no sistema E-cargo e dispara uma mensagem automática no Teams com as informações: Data,
+                                Número, Nome, Time (Segmentação) e motivo da pendência.</p>
+                            <div class="project-tags">
+                                <span class="tag">Power Automate</span>
+                                <span class="tag">Teams</span>
+                            </div>
+                            <button class="btn btn-outline btn-small view-details-btn" data-i18n="btn-details"
+                                data-project-id="4">Ver Detalhes</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projects-actions" style="text-align: center; margin-top: 40px;">
+                    <button id="see-more-btn" class="btn btn-secondary" data-i18n="btn-see-more">Veja mais</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contato Section -->
+        <section id="contact" class="contact section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" data-i18n="contact-title">Entre em Contato</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="contact-content">
+                    <div class="contact-info glass-card">
+                        <h3 data-i18n="contact-subtitle">Vamos Conversar!</h3>
+                        <p data-i18n="contact-desc">Sinta-se à vontade para entrar em contato para discutir
+                            oportunidades de automação, análise de dados ou desenvolvimento de soluções.</p>
+
+                        <div class="contact-methods">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:jeanvs.dev@gmail.com" target="_blank"
+                                    rel="noopener noreferrer">jeanvs.dev@gmail.com</a>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fab fa-linkedin"></i>
+                                <a href="https://www.linkedin.com/in/jean-victor-186863275/" target="_blank"
+                                    rel="noopener noreferrer">LinkedIn</a>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fab fa-github"></i>
+                                <a href="https://github.com/JeanVictor0329" target="_blank"
+                                    rel="noopener noreferrer">GitHub</a>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fab fa-whatsapp"></i>
+                                <a href="https://wa.me/+5592992781692" target="_blank"
+                                    rel="noopener noreferrer">WhatsApp</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form id="contact-form" class="contact-form glass-card" action="https://formspree.io/f/xkoydprp"
+                        method="POST">
+                        <div id="form-status" class="form-status" style="display:none;"></div>
+
+                        <div class="form-group">
+                            <label for="name" data-i18n="label-name">Nome</label>
+                            <input type="text" id="name" name="name" required placeholder="Seu nome completo"
+                                data-i18n-placeholder="placeholder-name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email" data-i18n="label-email">E-mail</label>
+                            <input type="email" id="email" name="email" required placeholder="seu.email@exemplo.com"
+                                data-i18n-placeholder="placeholder-email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message" data-i18n="label-message">Mensagem</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Como posso ajudar?"
+                                data-i18n-placeholder="placeholder-message"></textarea>
+                        </div>
+                        <button type="submit" id="submit-btn" class="btn btn-primary btn-block"
+                            data-i18n="btn-send">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Jean Victor</div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/jean-victor-186863275/" target="_blank"
+                        rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/JeanVictor0329" target="_blank" rel="noopener noreferrer"><i
+                            class="fab fa-github"></i></a>
+                    <a href="mailto:jeanvs.dev@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a href="https://wa.me/+5592992781692" target="_blank" rel="noopener noreferrer"><i
+                            class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-i18n="footer-text">&copy; 2026. Desenvolvido com foco em eficiência e automação.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Details Modal -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content glass-card">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <div class="modal-image-container">
+                    <img id="modal-img" src="" alt="Project Image" style="display: none;">
+                    <div id="modal-icon-placeholder" class="project-img-placeholder" style="display: flex;">
+                        <i id="modal-icon" class="fas fa-chart-bar"></i>
+                    </div>
+                </div>
+                <div class="modal-info">
+                    <h3 id="modal-title"></h3>
+                    <div id="modal-tags" class="project-tags"></div>
+                    <div id="modal-desc" class="modal-extended-desc"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/+5592992781692" class="whatsapp-float" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-tooltip" data-i18n="whatsapp-tooltip">Fale comigo!</span>
+    </a>
+
+    <script src="script.js?v=1.1"></script>
+</body>
+
+</html>
